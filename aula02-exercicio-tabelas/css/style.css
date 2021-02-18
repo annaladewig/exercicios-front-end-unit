@@ -1,0 +1,125 @@
+.tabela_um {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.tabela_dois {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.tabela_dois_titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabela_três {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.linha_tabela_três {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+}
+.tabela_três_titulo {
+    text-align: center;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+.tabela_quatro {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.linha_tabela_quatro {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+}
+.tabela_quatro_titulo {
+    text-align: center;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+#t04 tr:nth-child(even) {
+  background-color: lightpink;
+}
+#t04 tr:nth-child(odd) {
+ background-color: white;
+}
+
+#t04 th {
+  color: white;
+  background-color: lightpink;
+}
+
+.tabela_cinco {
+    border: 1px solid black;
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.linha_tabela_cinco {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+}
+.tabela_cinco_titulo {
+    text-align: center;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+#t05 td:nth-child(even) {
+  background-color: lightpink;
+}
+#t05 td:nth-child(odd) {
+ background-color: white;
+}
+
+#t05 th {
+  color: white;
+  background-color: lightpink;
+}
+
+.tabela_seis {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.linha_tabela_seis {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+
+
+
