@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 03</title>
+</head>
+<body>
+
+<h2>Listas HTMLS</h2>
+<br/>
+
+<ul>   <!-- Cria uma lista NÃO ORDENADA -->
+    <li>Primeiro Item</li>   <!-- Adiciona um item à lista. -->
+    <li>Segundo Item</li>
+    <li>Terceiro Item</li>
+
+</ul>
+
+<ol>   <!-- Cria uma lista ORDENADA -->
+    <li>Primeiro Item</li>   <!-- Adiciona um item à lista. -->
+    <li>Segundo Item</li>
+    <li>Terceiro Item</li>
+</ol>
+
+<dl>  <!-- Cria uma lista Descrição -->
+    <dt>Item Principal</dt>
+    <dd>- Sub Item 1</dd>
+    <dd>- Sub Item 2</dd>
+    <dd>- Sub Item 3</dd>
+    <dt>Segundo Item Principal</dt>
+    <dd>- Sub Item 1</dd>
+    <dd>- Sub Item 2</dd>
+    <dd>- Sub Item 3</dd>
+</dl>
+<br>
+<hr>
+<br>
+<h2>Iframes</h2>
+<iframe src="../aula02/index.html" title="Tabelas" height="250" width="500"></iframe>
+<br>
+<hr>
+<br>
+<h2>Vídeo do Youtube</h2>
+<!-- Vai no YouTube, clica em compartilhar e depois em <> (Incorporar) e copia o código que ele dá -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E6CdIawPTh0"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+        gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<hr>
+<br>
+<h2>Formulários</h2>
+<!-- O método POST é normalmente utilizado quando você quer enviar informações (cadastrar). Ele vai permitir que você envie as informações sem expô-las. -->
+<!-- O método GET é normalmente utilizado quando você quer recuperar informações. A informação fica na URL. -->
+<!-- O action é para onde, para qual página vão as informações que vamos receber no formulário. -->
+<form method="GET" action="https://www.w3schools.com/action_page.php">
+    <label>First Name:</label>
+    <input type="text" name="fname"/>
+    <br/><br/>
+    <label>Last Name:</label>
+    <input type="text" name="lname"/>
+    <br/><br/>
+    <p></p>
+    <p>Sexo</p>
+    <label>Masculino</label>
+    <input type="radio" name="sexo" value="masculino">
+    <br/><br/>
+    <label>Feminino</label>
+    <input type="radio" name="sexo" value="feminino">
+    <br/><br/>
+    <input type="submit" name="Enviar">
+</form>
+<br>
+<hr>
+<br>
+<form method="POST" action="https://www.w3schools.com/action_page.php">
+    <label>First Name:</label>
+    <input type="text" name="fname"/>
+    <br/><br/>
+    <label>Last Name:</label>
+    <input type="text" name="lname"/>
+    <br/><br/>
+    <p></p>
+    <p>Sexo</p>
+    <label>Masculino</label>
+    <input type="radio" name="sexo" value="masculino">
+    <br/><br/>
+    <label>Feminino</label>
+    <input type="radio" name="sexo" value="feminino">
+    <br/><br/>
+    <input type="submit" name="Enviar">
+</form>
+
+</body>
+</html>
