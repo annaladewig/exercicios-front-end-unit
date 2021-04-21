@@ -1,0 +1,52 @@
+body {
+    background-color: #F2F4F5;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #9013FE;
+    display: block;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.15)
+}
+
+main {
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+.box-container {
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: table;
+    float: left;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    background-color: #80E817;
+    border-radius: 10px;
+    border: 4px solid #9013FE;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background-color: #9013FE;
+    border-radius: 4px;
+    display: block;
+    margin-top: 25px;
+    float: left;
+}
+
+
+
